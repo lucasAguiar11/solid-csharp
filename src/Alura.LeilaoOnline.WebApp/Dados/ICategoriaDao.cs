@@ -2,7 +2,7 @@
 
 namespace Alura.LeilaoOnline.WebApp.Dados
 {
-    public interface ILeilaoDao : ICommand<Leilao>, IQuery<Leilao>
+    public interface ICategoriaDao : IQuery<Categoria>
     {
     }
 }
